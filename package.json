@@ -12,5 +12,13 @@
   ],
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  },
+  "scripts": {
+    "start": "node app.js",  
+    "test": "jest --maxWorkers=1"
   }
 }
