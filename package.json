@@ -19,6 +19,6 @@
   },
   "scripts": {
     "start": "node app.js",  
-    "test": "jest"
+    "test": "jest --maxWorkers=1"
   }
 }
